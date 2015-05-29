@@ -1,0 +1,21 @@
+<section class="code-area">	
+	<ul>
+		<li> <button ng-click="tab = 1">HTML</button> </li>
+		<li> <button ng-click="tab = 2">CSS</button> </li>
+		<li> <button ng-click="tab = 3">JAVASCRIPT</button> </li>
+	</ul>
+	<div class="code-editors">
+		<div class="html-editor editor" ng-show="tab === 1">
+			<textarea class="editor-instance" ui-codemirror="editorOptions.html" ng-model="editorValues.html">
+			 </textarea>
+		</div>
+		<div class="css-editor editor" ng-show="tab === 2">
+			<textarea class="editor-instance" ui-codemirror="editorOptions.css" ng-model="editorValues.css">
+			 </textarea>
+		</div>
+		<div class="js-editor editor" ng-show="tab === 3">
+			<textarea class="editor-instance" ui-codemirror="editorOptions.js" ng-model="editorValues.js">
+			 </textarea>
+		</div>
+	</div>
+</section>
