@@ -1,43 +1,60 @@
 <!DOCTYPE html>
 <html ng-app="codecoop">
-<head>
-	<title></title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-route.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-animate.min.js"></script>
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<link href='http://fonts.googleapis.com/css?family=Montserrat: 400,700|Quicksand' rel='stylesheet' type='text/css'>
-	<script src="codemirror/lib/codemirror.js"></script>
-	<link rel="stylesheet" href="codemirror/lib/codemirror.css">
-	<script src="codemirror/mode/javascript/javascript.js"></script>
-	<script src="codemirror/mode/css/css.js"></script>
-	<script src="codemirror/mode/xml/xml.js"></script>
-	<script src="codemirror/mode/htmlmixed/htmlmixed.js"></script>
-	<script src="https://rawgithub.com/angular-ui/ui-codemirror/bower/ui-codemirror.min.js"ipt src="angular/ui-codemirror.min.js"></script>
-	<script src="http://cdn.peerjs.com/0.3/peer.js"></script>
-	<link href="https://codemirror.net/theme/mdn-like.css" rel="stylesheet"/>
-	<script src="https://togetherjs.com/togetherjs-min.js"></script>
-	<link rel="stylesheet" href="editstyle-drag.css"/>
+<head>
+  <title></title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-route.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-animate.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Montserrat: 400,700|Quicksand' rel='stylesheet' type='text/css'>
+  <script src="codemirror/lib/codemirror.js"></script>
+  <link rel="stylesheet" href="codemirror/lib/codemirror.css">
+  <script src="codemirror/mode/css/css.js"></script>
+  <script src="codemirror/mode/xml/xml.js"></script>
+  <script src="codemirror/mode/htmlmixed/htmlmixed.js"></script>
+  <script src="https://rawgithub.com/angular-ui/ui-codemirror/bower/ui-codemirror.min.js" ipt src="angular/ui-codemirror.min.js"></script>
+  <!--<script src="http://cdn.peerjs.com/0.3/peer.js"></script>-->
+  <link href="https://codemirror.net/theme/mdn-like.css" rel="stylesheet" />
+  <script src="https://togetherjs.com/togetherjs-min.js"></script>
+  <link rel="stylesheet" href="editstyle-drag.css" />
 </head>
+
 <body>
 
-	
-	<div class="nav">
-		<ul class="navlist">
-			<li><a href="#/code"><h1 class="brand nav-el">CODE <i class="fa fa-code"></i> COOP</h1></a></li>
-			<li><a class="collab"><i class="fa fa-user-plus "></i><br>INVITE FRIEND</a><br><hr id="collab-status" class="status"></li>
-			<li><a id="open-call"><i class="fa fa-video-camera"></i><br>VIDEO CHAT</a><br><hr id="video-status" class="status"></li>
-			<li><a id="canvas-switch"><i class="fa fa-picture-o"></i><br>CANVAS</a><br><hr id="canvas-status" class="status"></li>
-			<li><a id="html-switch"><i class="fa fa-html5"></i><br>HTML</a><br><hr id="html-status" class="status"></li>
-			<li><a id="css-switch"><i class="fa fa-css3"></i><br>CSS</a><br><hr id="css-status" class="status"></li>
-			<li id="last-in-list"><a id="js-switch"><span class="fa">JS</span><br>JAVASCRIPT</a><br><hr id="js-status" class="status"></li>
-		</ul>
-	</div>
 
-	<div ng-view class="main"></div>
+  <div class="nav">
+    <ul class="navlist">
+      <li>
+        <a href="#/code"><h1 class="brand nav-el">CODE <i class="fa fa-code"></i> COOP</h1></a></li>
+      <li><a class="collab"><i class="fa fa-user-plus "></i><br>INVITE FRIEND</a>
+        <br>
+        <hr id="collab-status" class="status">
+      </li>
+      <li><a id="open-call"><i class="fa fa-video-camera"></i><br>VIDEO CHAT</a>
+        <br>
+        <hr id="video-status" class="status">
+      </li>
+      <li><a id="canvas-switch"><i class="fa fa-picture-o"></i><br>CANVAS</a>
+        <br>
+        <hr id="canvas-status" class="status">
+      </li>
+      <li><a id="html-switch"><i class="fa fa-html5"></i><br>HTML</a>
+        <br>
+        <hr id="html-status" class="status">
+      </li>
+      <li><a id="css-switch"><i class="fa fa-css3"></i><br>CSS</a>
+        <br>
+        <hr id="css-status" class="status">
+      </li>
+    </ul>
+  </div>
 
-	<script src="app.js"></script>
+  <div ng-view class="main"></div>
+
+  <script src="app.js"></script>
 </body>
+
 </html>

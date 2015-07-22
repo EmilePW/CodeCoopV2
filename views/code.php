@@ -1,12 +1,14 @@
 <?php
 	ini_set('display_errors', 'On');
 
-	if(isset($_POST['save'])) {
+	if($_POST) {
+		print_r($_POST);
 		$mysqli = new mysqli("localhost", "root", "901jumper", "codecoop");
-		$codeOutput = $mysqli->real_escape_string($_POST['codeOutput']);
-		$query = "INSERT INTO codesnippets (code) VALUES ($codeOutput)";
+		//$codeOutput = $mysqli->real_escape_string($_POST['codeOutput']);
+		$query = "INSERT INTO codesnippets (code) VALUES ('".$codeOutput."')";
 		$mysqli->query($query);
 	}
+	
 	
 ?>
 
