@@ -1,0 +1,57 @@
+
+html, body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Venti Medium';
+}
+
+.logo img {
+	margin-top: -12px;
+	margin-right: 10px;
+}
+
+.logo-component {
+	display: inline-block;
+}
+
+.action-area {
+	margin: 0 auto;
+}
+
+.editor {
+	border: 1px solid black;
+	height: 200px;
+	padding: 0px;
+}
+
+.code-area {
+	height: 200px;
+}
+
+.CodeMirror {
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+}
+
+.output {
+	height: 268px;
+	border: 1px solid black;
+	padding: 0px;
+}
+
+.action-btn button {
+	border-radius: 100%;
+	outline: none;
+	border: none;
+	width: 60px;
+	height: 60px;
+	font-size: 25px;
+	margin-top: 20px;
+}
+
+#save-code {
+	border-radius: 100%;
+	width: 80px;
+	height: 80px;
+}

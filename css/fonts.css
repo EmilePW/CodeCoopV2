@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'Visby Medium';
+	src: url('../fonts/VisbyCF-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Visby Round Medium';
+	src: url('../fonts/VisbyRoundCF-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Venti Light';
+	src: url('../fonts/VentiCF-Light.woff2') format('woff');
+}
+
+@font-face {
+	font-family: 'Venti Medium';
+	src: url('../fonts/VentiCF-Medium.woff2') format('woff');
+}
+
+@font-face {
+	font-family: 'Venti Demi-Bold';
+	src: url('../fonts/VentiCF-DemiBold.woff2') format('woff');
+}
+
+@font-face {
+	font-family: 'Venti Bold';
+	src: url('../fonts/VentiCF-Bold.woff2') format('woff');
+}

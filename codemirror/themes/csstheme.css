@@ -1,0 +1,39 @@
+/*
+
+    Name:       3024 night
+    Author:     Jan T. Sott (http://github.com/idleberg)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-codemirror)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-csstheme.CodeMirror {background: #fff; color: #555;}
+.cm-s-csstheme div.CodeMirror-selected {background: #3a3432 !important;}
+.cm-s-csstheme .CodeMirror-line::selection, .cm-s-csstheme .CodeMirror-line > span::selection, .cm-s-csstheme .CodeMirror-line > span > span::selection { background: rgba(58, 52, 50, .99); }
+.cm-s-csstheme .CodeMirror-line::-moz-selection, .cm-s-csstheme .CodeMirror-line > span::-moz-selection, .cm-s-csstheme .CodeMirror-line > span > span::-moz-selection { background: rgba(58, 52, 50, .99); }
+.cm-s-csstheme .CodeMirror-gutters {background: #090300; border-right: 0px;}
+.cm-s-csstheme .CodeMirror-guttermarker { color: #db2d20; }
+.cm-s-csstheme .CodeMirror-guttermarker-subtle { color: #5c5855; }
+.cm-s-csstheme .CodeMirror-linenumber {color: #5c5855;}
+
+.cm-s-csstheme .CodeMirror-cursor {border-left: 1px solid #807d7c !important;}
+
+.cm-s-csstheme span.cm-comment {color: #cdab53;}
+.cm-s-csstheme span.cm-atom {color: #a16a94;}
+.cm-s-csstheme span.cm-number {color: #a16a94;}
+
+.cm-s-csstheme span.cm-property, .cm-s-csstheme span.cm-attribute {color: #01a252;}
+.cm-s-csstheme span.cm-keyword {color: #db2d20;}
+.cm-s-csstheme span.cm-string {color: #fded02;}
+
+.cm-s-csstheme span.cm-variable {color: #01a252;}
+.cm-s-csstheme span.cm-variable-2 {color: #01a0e4;}
+.cm-s-csstheme span.cm-def {color: #e8bbd0;}
+.cm-s-csstheme span.cm-bracket {color: #d6d5d4;}
+.cm-s-csstheme span.cm-tag {color: #ff9900;}
+.cm-s-csstheme span.cm-link {color: #a16a94;}
+.cm-s-csstheme span.cm-error {background: #db2d20; color: #fff;}
+
+.cm-s-csstheme .CodeMirror-activeline-background {background: #2F2F2F !important;}
+.cm-s-csstheme .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}
