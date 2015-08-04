@@ -65,6 +65,11 @@
     <div class="row tagline text-center">
       <h3>Learn Web Design.</h3>
     </div>
+    <div class="row">
+      <div class="col-md-2 col-md-offset-5">
+       <button id="call-to-action" class="hvr-rectangle-out">Start<br>Learning</button>
+      </div>
+    </div>
   </div>
 
   <!-- Main Web App -->
